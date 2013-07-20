@@ -1,0 +1,16 @@
+MovieApp TODO List
+
+-Memory/File Cache
+	*-LRU Collection for memory cache
+	*-Save to file system automatically, then upload to memory
+	*-Thread Pool downloads to file system
+	-Check for cache of sd card and keep cache to a min size.
+
+-Add Menu
+
+-Add Details for selected
+
+-Watchlist Model
+
+-Soon To Redbox
+	-Add tab to categories

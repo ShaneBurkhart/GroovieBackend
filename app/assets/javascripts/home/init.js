@@ -1,0 +1,3 @@
+Movie.home.init = function (){
+	
+}

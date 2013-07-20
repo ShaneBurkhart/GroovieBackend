@@ -1,0 +1,33 @@
+Title: MovieApp (Pending)
+Author: Shane Burkhart
+Business Model: Freemium
+
+Problem: 
+I always see previews that make me want to see the movie but forget about the movie at some point.  By the time it's at Redbox or on Netflix, I never remember what it's about so I don't rent it.
+
+Mission Statement: 
+Let the user keep track of movies that are out or coming out and notify him/her so they will not let it slip by.  Notify when it comes to Redbox, and when it comes to theaters.
+
+Goal: 
+An app to persue on the side when I don't have anything else to work on.
+
+Summary of Strategy: 
+Use Flixter API to get movies, trailers, ratings, and new releases.  Start by making it for iPhone and then Android.  
+
+Possible Features: 
+-Use shazam on the trailers to add to your list.  
+-Email user each week to tell them upcoming movies, movies they would like, and movies coming out on Redbox.
+-Make it super easy to add and remove movies from list.
+-Possible friends and user profile. For sharing.
+-Give movie times at local theaters.
+-Give locations at close Redboxes.
+
+Models: 
+User - email, provider, uid, password*, name
+WatchList - user_id, flixter_id, rating (How bad they want to see it)
+
+Controller:
+Static - About, etc.
+Users - resource
+Movies - index, search, show
+Watches - index, new, create, destroy
